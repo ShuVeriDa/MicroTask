@@ -10,18 +10,20 @@ import {Task4} from "./Task4/Task4";
 import {Task5} from "./Task5/Task5";
 import {Task6} from "./Task6/Task6";
 import {Practic} from "./Practic/Practic";
+import {Task7} from "./Task7/Task7";
 
 function App() {
    return (
       <div className="App">
-         <Header title='THis is title of Header'/>
-         <Body title='This is title of Body'/>
+         {/*<Header title='THis is title of Header'/>*/}
+         {/*<Body title='This is title of Body'/>*/}
          {/*<Task2/>*/}
          {/*<Task3/>*/}
          {/*<Task4/>*/}
          {/*<Task5/>*/}
-         <Task6/>
-         <Practic />
+         {/*<Task6/>*/}
+         <Task7 />
+         {/*<Practic />*/}
       </div>
    );
 }
